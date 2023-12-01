@@ -8,8 +8,8 @@ public class Main
     {
         int bajt;
 
-        try(FileInputStream fis = new FileInputStream("C:\\Users\\vchup\\IdeaProjects\\CopyFileAutoClose\\file.txt");
-            FileOutputStream fos = new FileOutputStream("C:\\Users\\vchup\\IdeaProjects\\CopyFileAutoClose\\copyOfFile.txt"))
+        try(FileInputStream fis = new FileInputStream("file.txt");
+            FileOutputStream fos = new FileOutputStream("copyOfFile.txt"))
         {
             do
             {
